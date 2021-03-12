@@ -1,0 +1,30 @@
+header h1{
+    font-size: 45px;
+    text-align: center;
+    background-color: rgb(33,57,106);
+    padding: 20px;
+    color: white;
+}
+
+section article{
+    width: 70%;
+    margin: auto;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+
+article .para{
+    width: 69%;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 25px;
+    margin: 10px;
+}
+
+article img{
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 10px;
+    margin: 10px;
+}
+
