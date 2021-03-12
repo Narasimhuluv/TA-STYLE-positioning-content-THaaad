@@ -1,0 +1,76 @@
+header {
+    /* text-align: center; */
+    background-color: rgb(33,57,106);
+    padding: 20px;
+}
+
+header h1{
+    color: white;
+    font-size: 55px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+
+header nav{
+    width: calc(100% - 20%);
+    display: inline-block;
+    font-size: 18px;
+    text-align: right;
+}
+nav a{
+    color: white;
+    font-size: 20px;
+    margin: 0px 10px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+nav .color_orange{
+    color: orangered;
+}
+
+article h3{
+    font-size: 25px;
+    margin-left: 15px;
+    color: orangered;
+}
+
+section article{
+    width: 70%;
+    margin: auto;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+
+article .para{
+    width: 69%;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 25px;
+    margin: 10px;
+}
+
+article img{
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+ footer{
+    width: 97.5%;
+    padding: 25px;
+    background-color: powderblue;
+    margin-top: 50px;
+}
+footer nav{
+    text-align: center;
+}
+
+footer nav a{
+    color: orangered;
+    margin: 0px 25px;
+    font-size: 22px;
+    
+} 
+
