@@ -1,9 +1,37 @@
-header h1{
-    font-size: 45px;
-    text-align: center;
+header {
+    /* text-align: center; */
     background-color: rgb(33,57,106);
     padding: 20px;
+}
+
+header h1{
     color: white;
+    font-size: 55px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+
+header nav{
+    width: calc(90% - 150px);
+    display: inline-block;
+    font-size: 18px;
+    text-align: right;
+}
+nav a{
+    color: white;
+    font-size: 20px;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+nav .color_orange{
+    color: orangered;
+}
+
+article h3{
+    font-size: 25px;
+    margin-left: 15px;
+    color: orangered;
 }
 
 section article{
@@ -27,4 +55,21 @@ article img{
     border-radius: 10px;
     margin: 10px;
 }
+
+ footer{
+    width: 97.5%;
+    padding: 25px;
+    background-color: powderblue;
+    margin-top: 50px;
+}
+footer nav{
+    text-align: center;
+}
+
+footer nav a{
+    color: orangered;
+    margin: 0px 25px;
+    font-size: 22px;
+    
+} 
 
