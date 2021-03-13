@@ -112,16 +112,17 @@ header nav a{
     /* border: 1px solid black; */
 }
 .article_1 .container{
-    width: 60%;
+    width: 80%;
     /* border: 1px solid black; */
     margin: auto;
     padding: 80px 25px ;
+    padding-left: 105px;
     
 }
 .article_1 .container .data{
    float: left;
    /* border: 1px solid red; */
-   margin: 10px;
+   margin: 15px;
    padding: 8px;
     width: 30%;
     vertical-align: middle;
