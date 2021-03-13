@@ -1,0 +1,299 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* -------------reset-style---ended--------- */
+
+/* ---------custom styles--------- */
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+}
+header{
+    max-width: 100%;
+    border: 1px solid blanchedalmond;
+    padding: 50px 0px;
+    background-color: rgb(83,133,193);
+    color: black;
+    color: white;
+   
+}
+header h3{
+    float: left;
+    font-size: 25px;
+    vertical-align: middle;
+    padding: 50px 200px;
+}
+header nav{
+    float: right;
+    padding: 50px 200px;
+}
+header nav a{
+    font-size: 18px;
+    margin: 0 20px;
+    color: white;
+    text-decoration: none;
+}
+.clearfix::before, .clearfix::after{
+    content: "";
+    display: table;
+}
+
+.clearfix::after{
+    clear: both;
+}
+
+.heading{
+    max-width: 100%;
+    height: 200px;
+    background-color: rgb(83,133,193);
+    text-align: center;
+}
+.heading h1{
+    font-size: 66px;
+}
+.heading p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+/* -------------HEADER ENDED ------- */
+
+/* --------------MAIN ARTICLE-1 START----------- */
+
+.article_1{
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.article_1 .container{
+    width: 60%;
+    /* border: 1px solid black; */
+    margin: auto;
+    padding: 80px 25px ;
+    
+}
+.article_1 .container .data{
+   float: left;
+   /* border: 1px solid red; */
+   margin: 10px;
+   padding: 8px;
+    width: 30%;
+    vertical-align: middle;
+
+}
+
+.article_1 .container .data h2{
+    font-size: 25px;
+    margin-top: 25px;
+    color: rgb(83,133,193);
+    line-height: 30px;
+}
+
+.article_1 .container .data p{
+    font-size: 18px;
+    margin-top: 25px;
+    line-height: 30px;
+    color: grey;
+}
+
+.article_1 .container .data .more_btn{
+    width: 100px;
+    height: 35px;
+    border: 1px solid blue;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 35px;
+    background-color: rgb(83,133,193);
+    color: white;
+}
+/* -------------ARTICLE 1 COMPLETED---------- */
+
+/* ----------------ARTICLE 2 START---------- */
+
+.article_2{
+    max-width: 100%;
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 25px;
+    padding-top: 100px ;
+    padding-bottom: 65px;
+    background-color: rgb(83,133,193);
+
+}
+
+.article_2 .container{
+    max-width: 80%;
+    /* border: 1px solid black; */
+    margin: auto;
+    color: white;
+    
+}
+
+.article_2 .container .data h2{
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.article_2 .container .data p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.article_2 .container .gallery{
+    width: 16%;
+    border: 1px solid rgba(255, 255, 255, 0.363);
+    padding: 60px 0px;
+    float: left;
+    margin: 28px;
+    color: white;
+    margin-top: 45px;
+    
+}
+
+.article_2 .container .gallery img{
+    width: 150px;
+    height: 180px;
+    border-radius: 50%;
+}
+.article_2 .container .gallery h3{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+/* ----------------ARTICLE 2 COMPLETED---------- */
+
+/* -------ARTICLE 3 START-------- */
+
+.article_3{
+    max-width: 100%;
+    margin-top: 45px;
+    /* border: 1px solid black; */
+}
+
+.article_3 .container{
+    max-width: 80%;
+    /* border: 1px solid black; */
+    padding: 20px;
+    margin: auto;
+}
+.article_3 .container .data{
+    text-align: center;
+}
+.article_3 .container .data h2{
+    font-size: 45px;
+    color: rgb(83,133,193);
+}
+.article_3 .container .data p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.article_3 .container .gallery{
+    max-width: 47%;
+    /* border: 1px solid red; */
+    float: left;
+    margin: 20px;
+}
+.article_3 .container .gallery img{
+    max-width: 100%;
+}
+
+.article_3 .container .gallery h2{
+    color: rgb(83,133,193);
+    font-size: 25px;
+    margin-top: 25px;
+}
+.article_3 .container .gallery p{
+    margin-top: 20px;
+}
+
+.article_3 .container .gallery .more_btn{
+    width: 100px;
+    height: 35px;
+    border: 1px solid blue;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 35px;
+    background-color: rgb(83,133,193);
+    color: white;
+}
+
+hr{
+    max-width: 75%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+/* --------------main ended---------- */
+
+
+footer{
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 50px;
+}
+
+footer p{
+    float: left;
+    margin-left: 235px;
+}
+
+footer nav{
+    float: right;
+    margin-right: 235px;
+}
+
+footer nav a{
+    margin: 5px;
+    font-size: 18px;
+    color: rgba(0, 0, 255, 0.842);
+}
+
